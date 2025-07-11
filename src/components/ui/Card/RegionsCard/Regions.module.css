@@ -1,0 +1,48 @@
+.RegionsCard {
+  width: 18rem;
+}
+
+.RegionsCard__title {
+  font-weight: var(--medium-weight);
+  margin-bottom: 2.5rem;
+}
+
+.RegionsCard__row {
+  font-weight: var(--regular-weight);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+.RegionsCard__field {
+  text-align: left;
+}
+
+.RegionsCard__status {
+  color: var(--gray-color);
+}
+
+.RegionsCard__data {
+  font-size: var(--text-2xl);
+}
+
+.RegionsCard__icon {
+  font-size: var(--text-4xl);
+}
+
+.RegionsCard__row:nth-of-type(2) {
+  color: var(--sec-color);
+}
+
+.RegionsCard__row:nth-of-type(3) {
+  color: var(--danger-color);
+}
+
+
+/* Medium Screen */
+@media (max-width: 992px) {
+  .RegionsCard {
+    width: 100%;
+  }
+}

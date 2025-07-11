@@ -1,0 +1,25 @@
+.StatsCard {
+  width: 15rem;
+  height: 10rem;
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.StatsCard__title {
+  font-weight: var(--medium-weight);
+}
+
+.StatsCard__data {
+  font-size: 2.5rem;
+  font-weight: var(--medium-weight);
+}
+
+/* Medium Screen */
+@media (max-width: 992px) {
+  .StatsCard {
+    width: 100%;
+  }
+}

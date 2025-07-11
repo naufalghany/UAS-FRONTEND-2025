@@ -1,0 +1,27 @@
+.StatsSituation__body {
+  display: flex;
+  gap: 1.5rem;
+
+  align-content: center;
+  justify-content: center;
+}
+
+.StatsSituation__body span {
+  transition: transform 0.2s ease;
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.StatsSituation__body span:hover {
+  transform: scale(1.05);
+}
+
+/* Medium Screen */
+@media (max-width: 992px) {
+  .StatsSituation__body {
+    flex-direction: column;
+    width: 80%;
+    min-width: 320px;
+    text-align: center;
+  }
+}
